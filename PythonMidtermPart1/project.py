@@ -113,7 +113,7 @@ def print_bill(total, burgersDict, user_type):
             for key, val in burgersDict.items():
                 if (burgersDict.get(key) > 0):
                     print("Quantity of " + str(key) + ": " + str(val))
-            print("There will be tax for staff. ")
+            print("There will be 9% tax for staff. ")
             print("Subtotal: " + str(round(total,2)))
             print("Tax amount: " + str(tax_amount))
             print("Total: " + str(round(total + tax_amount, 2)))
